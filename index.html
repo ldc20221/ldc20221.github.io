@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome 免费下载</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+        button {
+            margin-top: 20px;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3367d6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chrome 免费下载</h1>
+    <button onclick="redirect()">点击下载</button>
+
+    <script>
+        function redirect() {
+            // 打开 Firefox 官网
+            window.location.href = "https://www.firefox.com";
+        }
+    </script>
+</body>
+</html>
